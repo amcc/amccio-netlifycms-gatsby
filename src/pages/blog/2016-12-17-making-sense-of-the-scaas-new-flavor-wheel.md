@@ -9,7 +9,7 @@ tags:
   - flavor
   - tasting
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/screenshot-2019-08-14-at-01.06.46.png)
 
 Gatsby was combined with WordPress as a backend to create a degree show website for Graphic Media Design at LCC. Students worked collaboratively with me to help design and code the website.
 
