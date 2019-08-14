@@ -6,8 +6,8 @@ description: Gatsby / WordPress
 featuredpost: false
 featuredimage: /img/screenshot-2019-08-14-at-01.06.46.png
 tags:
-  - flavor
-  - tasting
+  - gatsby
+  - wordpress
 ---
 ![flavor wheel](/img/screenshot-2019-08-14-at-01.06.46.png)
 
