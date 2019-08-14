@@ -3,38 +3,29 @@ templateKey: 'project-page'
 path: /projects
 title: Projects
 image: /img/jumbotron.jpg
-heading: The projects
+heading: Projects
 description: >-
-  The description
+  I work across a number of digital areas, a fascination with code, generative design and art have led me to explore many areas of digital creation. I began creating websites and interactive work in 1995, I've also forged a fine art career, graduating from the Royal College of Art in 2005.  
+  
+  Since then i've worked as a web developer, animator (including many years for Julian Opie, helping to create generative animations), and more recently as a Senior Lecturer at University of the Arts London.  
+  
+  These projects are sometimes commecial, often experimental and always exploring the latest and most exciting developments in technology.  
+  
+  Frequently used techniques range from video / After Effects work to programming for web/apps. I've experience with a number of languages, currently i'm most excited about JavaScript with a focus on node.js, ReactJS and Gatsby. However I've spent many years working with large Drupal CMS projects and many WordPress sites, newer projects have still seen these used as a backend, with React/Gatsby front ends. Below is a selection of fun stuff i'm playing with.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/projects/gatsby.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Gatsby is one of the most exciting technolgies on the web right now. It creates incredibly fast websites. Gatsby creates static web sites from almost any source (eg WordPress, Shopify or markdown files). Gatsby is a framework based on React so benefits from all the things React can do.
+    - image: /img/projects/react.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        React is an incredible component based framework that does almost everything from creating native apps, web apps to doing all kinds of fun things on the web
+    - image: /img/projects/node.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        Node is behind much of the new developments both on the web and within physical computing software developments. Node runs the servers and more for React and Gatsby, its also doing some great things on devices like Raspberry Pi's and is enabling interaction with AI libraries
+    - image: /img/p5js.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        p5js is a fantastic library for generative design, animation and coding. There are many more libraries of interst, such as paperJS and a number of librareis on npm that i'm staring to experiment with. However p5JS is notable because of its creation by the Processing foundation, the huge amount of educational outreach and its ease of use.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
