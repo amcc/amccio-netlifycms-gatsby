@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import paragraphs from "lines-to-paragraphs"
 
 export const ProjectPageTemplate = ({
   image,
@@ -45,7 +46,10 @@ export const ProjectPageTemplate = ({
           <div className="columns">
             <div className="column is-7 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+              {/* <p>{description}
+              <div dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
+              </p> */}
+              <p dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
             </div>
           </div>
           <div className="columns">
@@ -130,7 +134,7 @@ ProjectPageTemplate.propTypes = {
 
 const ProjectPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log(frontmatter)
+  // console.log(frontmatter)
   return (
     <Layout>
       <ProjectPageTemplate

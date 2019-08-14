@@ -7,9 +7,12 @@ heading: Projects
 description: >-
   I work across a number of digital areas, a fascination with code, generative design and art have led me to explore many areas of digital creation. I began creating websites and interactive work in 1995, I've also forged a fine art career, graduating from the Royal College of Art in 2005.  
   
+
   Since then i've worked as a web developer, animator (including many years for Julian Opie, helping to create generative animations), and more recently as a Senior Lecturer at University of the Arts London.  
   
+
   These projects are sometimes commecial, often experimental and always exploring the latest and most exciting developments in technology.  
+  
   
   Frequently used techniques range from video / After Effects work to programming for web/apps. I've experience with a number of languages, currently i'm most excited about JavaScript with a focus on node.js, ReactJS and Gatsby. However I've spent many years working with large Drupal CMS projects and many WordPress sites, newer projects have still seen these used as a backend, with React/Gatsby front ends. Below is a selection of fun stuff i'm playing with.
 intro:
