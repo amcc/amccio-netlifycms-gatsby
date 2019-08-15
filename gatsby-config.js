@@ -7,6 +7,19 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `amcc.io`,
+        short_name: `amcc.io`,
+        description: `amcc.io is the digital side of Alistair McClymont. Projects, experimentation and art/digital crossover all coexist here.`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#FF6347`,
+        display: `standalone`,
+        icon: `src/img/amcc.png`,
+      },
+    },
     "gatsby-plugin-sass",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
