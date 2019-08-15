@@ -26,14 +26,14 @@ module.exports = {
       options: {
         host: "https://www.amcc.io",
         sitemap: "https://www.amcc.io/sitemap.xml",
-        // env: {
-        //   development: {
-        //     policy: [{ userAgent: "*", disallow: ["/"] }]
-        //   },
-        //   production: {
-        //     policy: [{ userAgent: "*", disallow: "/" }]
-        //   }
-        // }
+        env: {
+          development: {
+            policy: [{ userAgent: "*", disallow: ["/"] }]
+          },
+          production: {
+            policy: [{ userAgent: "*", disallow: "/" }]
+          }
+        }
       }
     },
     "gatsby-plugin-sass",
