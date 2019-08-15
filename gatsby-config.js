@@ -20,6 +20,22 @@ module.exports = {
         icon: `src/img/amcc.png`,
       },
     },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.amcc.io",
+        sitemap: "https://www.amcc.io/sitemap.xml",
+        // env: {
+        //   development: {
+        //     policy: [{ userAgent: "*", disallow: ["/"] }]
+        //   },
+        //   production: {
+        //     policy: [{ userAgent: "*", disallow: "/" }]
+        //   }
+        // }
+      }
+    },
     "gatsby-plugin-sass",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
