@@ -2,7 +2,7 @@
 templateKey: 'project-page'
 path: /projects
 title: Projects
-image: /img/jumbotron.jpg
+image: /img/projects/pi-watering.jpeg
 heading: Projects
 description: >-
   I work across a number of digital areas, a fascination with code, generative design and art have led me to explore many areas of digital creation. I began creating websites and interactive work in 1995, I've also forged a fine art career, graduating from the Royal College of Art in 2005.  
@@ -31,26 +31,20 @@ intro:
         p5js is a fantastic library for generative design, animation and coding. There are many more libraries of interst, such as paperJS and a number of librareis on npm that i'm staring to experiment with. However p5JS is notable because of its creation by the Processing foundation, the huge amount of educational outreach and its ease of use.
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Because of my work with students and experimental art/design practice I am constantly learning and testing new methods of production. I'm as happy welding steel as I am coding python, or playing with video. Look at the blog to see what I'm up to, or get in touch if you have any questions
 main:
-  heading: Great coffee with no compromises
+  heading: Projects without boundaries
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    amcc.io can design, develop and provide conceptual framework for projects. From exhibitions at the Tate to the London Design Festival at the V&A, to talks and lectures at international and established London art/design universities amcc.io can provide experience, inspiration and technical expertise.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: A self watering system combining a Raspberry Pi, node.js, Firebase and React
+    image: /img/projects/pi-watering.jpeg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: GMDLCC.com website for the 2019 Graphic and Media Design degree show
+    image: /img/projects/gmdlcc1.jpeg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Of Machines Learning to see Lemon
+    image: /img/projects/lemon.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-

@@ -28,17 +28,17 @@ export const ProjectPageTemplate = ({
         })`,
       }}
     >
-      <h2
+      <h1
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
+          boxShadow: '0.5rem 0 0 #FF1493, -0.5rem 0 0 #FF1493',
+          backgroundColor: '#FF1493',
           color: 'white',
           padding: '1rem',
         }}
       >
         {title}
-      </h2>
+      </h1>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -84,7 +84,7 @@ export const ProjectPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
+              {/* <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
                 style={{
@@ -99,7 +99,7 @@ export const ProjectPageTemplate = ({
                 {pricing.heading}
               </h2>
               <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+              <Pricing data={pricing.plans} /> */}
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ templateKey: index-page
 title: amcc.io
 image: /img/home-jumbotron.jpg
 heading: code, dev, front-end, back-end, physical
-subheading: some geeky nonsense
+subheading: artist / coder / designer / developer
 mainpitch:
   title: What is amcc.io
   description: >

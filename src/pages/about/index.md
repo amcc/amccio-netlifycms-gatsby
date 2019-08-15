@@ -1,19 +1,21 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About our amcc.io
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+amcc.io is Alistair McClymont, an artist and coder from the UK.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Full stack developer and designer
+My experience stems from both art/design and development. I began coding in 1995, creating websites and interactive media. Alongside this I was studying fine art at Hull, the the Royal College of Art. I now work as a full stack developer, a designer, a senior lecturer at University of the Arts London and as an artist.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Driving forces
+My digital work stems from a desire to continue learning, researching and education. I enjoy the conceptual design challenge as much as the techical and programatic. I am passionate about discovering new technolgoy and new methodologies.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Art and Design work
+I teach a variety of subjects around art and design, from core design subjects ranging from video, generative coding design to sculpture and installation art. My own art and design practice see's me exhibit internationally both as a solo artist and in a partnership with Dr. John Fass. More can be seen of my artwork here: <a href="alistairmcclymont.com">alistairmcclymont.com</a>
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Code and Development
+I began with simple html websites in a summer holiday job at the age of 16 in 1994, looking a the source code and creating sites in notepad. The web has come a long way since then. In the meantime i've worked a lot with large scale CMS sites (many in Drupal and Wordpress), I've worked as a Flash animator and developer. Most of my current efforts are in JavaScript (and occassionaly Python and Java). I'm finding Gatsby/React/Node fun, but love to play with generative code in Processing, P5.js and Paper.js.
+
+### Have an idea you want to realise
+<a href="/contact">Get in touch</a> in you have a project you want designed, developed.

@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <strong>amcc.io</strong>
+              <strong style={{color: '#FF1493' }}>amcc.io</strong>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://github.com/amcc"
                 target="_blank"
                 rel="noopener noreferrer"
               >
