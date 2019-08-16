@@ -3,7 +3,7 @@ templateKey: 'about-page'
 path: /about
 title: About our amcc.io
 ---
-amcc.io is Alistair McClymont, an artist and coder from the UK.
+amcc.io is Alistair McClymont, an artist and coder from the UK. Retheme
 
 ### Full stack developer and designer
 My experience stems from both art/design and development. I began coding in 1995, creating websites and interactive media. Alongside this I was studying fine art at Hull, the the Royal College of Art. I now work as a full stack developer, a designer, a senior lecturer at University of the Arts London and as an artist.
