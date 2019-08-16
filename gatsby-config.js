@@ -2,6 +2,7 @@ var proxy = require("http-proxy-middleware");
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.amcc.io`,
     title: "amcc.io",
     description: "amcc.io website"
   },
