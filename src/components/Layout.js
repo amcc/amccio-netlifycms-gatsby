@@ -1,14 +1,23 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from "gatsby"
+import React from "react";
+import { Helmet } from "react-helmet";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import useSiteMetadata from "./SiteMetadata";
+
+import { GlobalStyle, MainWrapper } from "../utils/styles";
+// import { withPrefix } from "gatsby"
+
+//theming from Rebass
+import { ThemeProvider } from "emotion-theming";
+import theme from "@rebass/preset";
+import { Box } from 'rebass'
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -19,11 +28,21 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} /> */}
       </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
-    </div>
-  )
-}
+      <MainWrapper>
+        <Box
+          sx={{
+            display: "grid",
+            gridGap: 4,
+            // gridTemplateColumns: "repeat(auto-fit, minmax(128px, 1fr))"
+          }}
+        >
+          <Navbar />
+          <div>{children}</div>
+          <Footer />
+        </Box>
+      </MainWrapper>
+    </ThemeProvider>
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
